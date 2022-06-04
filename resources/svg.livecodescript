@@ -1,6 +1,6 @@
-script "materialDesignSVGs"
+script "com.livecode.library.MaterialDesignSVGs"
 
-getProp MaterialDesignSVGs
+getProp cMaterialDesignSVGs
 	local t
 
 put "F01C9" into t["ab testing"]["codepoint"]
@@ -11837,5 +11837,6 @@ put "F102D" into t["file excel outline"]["codepoint"]
 	put "M15.59,9C17.7,7.74 19,5.46 19,3H17A5,5 0 0,1 12,8A5,5 0 0,1 7,3H5C5,5.46 6.3,7.74 8.41,9C5.09,11 4,15.28 6,18.6C7.97,21.92 12.27,23 15.59,21C18.91,19.04 20,14.74 18,11.42C17.42,10.43 16.58,9.59 15.59,9M12,20A5,5 0 0,1 7,15A5,5 0 0,1 12,10A5,5 0 0,1 17,15A5,5 0 0,1 12,20Z " into t["zodiac taurus"]["svg"]
 	put "F0A88" into t["zodiac virgo"]["codepoint"]
 	put "M18.5,19.13C20,17.77 20,15.18 20,14A4,4 0 0,0 16,10C15.3,10 14.6,10.2 14,10.56V6A3,3 0 0,0 11,3C10.25,3 9.55,3.29 9,3.78C7.86,2.76 6.14,2.76 5,3.78C4.45,3.28 3.74,3 3,3V5A1,1 0 0,1 4,6V16H6V6A1,1 0 0,1 7,5A1,1 0 0,1 8,6V16H10V6A1,1 0 0,1 11,5A1,1 0 0,1 12,6V14C12,15.18 12,17.77 13.5,19.13C12.72,19.54 11.88,19.84 11,20V22C12.29,22 14.84,20.74 16,20.13C17.16,20.74 19.71,22 21,22V20C20.12,19.84 19.28,19.54 18.5,19.13M16,12A2,2 0 0,1 18,14C18,16.92 17.46,18 16,18C14.54,18 14,16.92 14,14A2,2 0 0,1 16,12Z " into t["zodiac virgo"]["svg"]
+	
 	return t
-end MaterialDesignSVGs
+end cMaterialDesignSVGs
