@@ -29,12 +29,12 @@ Summary: Select an SVG icon from one of the loaded icon families.
 
 OS: mac, windows, linux
 
-Platforms: desktop, web
+Platforms: desktop
 
 Example:
 on mouseUp pButtonNumber
    local tIconName
-   put iconPicker() into tIconName["name"]
+   put iconPicker() into tIconName
 
    if tIconName["name"] is not empty then
       set the iconPresetName of widget "SVG Icon" to tIconName["name"]
@@ -44,7 +44,7 @@ end mouseUp
 Example:
 on mouseUp pButtonNumber
    local tIconPath
-   put iconPicker() into tIconPath["path"]
+   put iconPicker() into tIconPath
 
    if tIconPath["path"] is not empty then
       set the iconPath of widget "SVG Icon" to tIconPath["path"]
