@@ -19,22 +19,9 @@ Name: iconPicker
 
 Type: function
 
-Syntax: iconPicker(<pView>,<pIconFamilyName>)
-
-Summary: Selecciona un icono SVG de una de las familias de iconos cargados.
-
-Parameters:
-:
-
-
-:
-
-
-Name: iconPicker
-
-Type: function
-
 Syntax: iconPicker([<pView>],[<pIconFamilyName>])
+
+Summary: Select an SVG icon from one of the loaded icon families.
 
 Example:
 on mouseUp pButtonNumber
