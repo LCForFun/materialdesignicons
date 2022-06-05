@@ -15,3 +15,57 @@ Summary: 6700+ Material Design Icons from the Community
 Description: This library has over 6700 material design icons from the community. All information regarding the license of the icons and their authors can be found at [materialdesignicons.com](https://materialdesignicons.com).
 
 
+Name: iconPicker
+
+Type: function
+
+Syntax: iconPicker(<pView>,<pIconFamilyName>)
+
+Summary: Selecciona un icono SVG de una de las familias de iconos cargados.
+
+Parameters:
+:
+
+
+:
+
+
+Name: iconPicker
+
+Type: function
+
+Syntax: iconPicker([<pView>],[<pIconFamilyName>])
+
+Example:
+on mouseUp pButtonNumber
+   local tIconName
+   put iconPicker() into tIconName["name"]
+
+   if tIconName["name"] is not empty then
+      set the iconPresetName of widget "SVG Icon" to tIconName["name"]
+   end if
+end mouseUp
+
+Example:
+on mouseUp pButtonNumber
+   local tIconPath
+   put iconPicker() into tIconPath["path"]
+
+   if tIconPath["path"] is not empty then
+      set the iconPath of widget "SVG Icon" to tIconPath["path"]
+   end if
+end mouseUp
+
+Description: Use the <iconPicker> function to display an svg icon picker.
+
+Parameters: 
+
+pView: This parameter defines how the icon list is arranged. Its values can be List and grid. Regilla being the default value.
+
+pIconFamilyName: This parameter defines which icon family will be selected when opening the picker.
+
+Returns: This function returns an array with two keys. One with the name of the selected icon and the other with its path.
+
+
+
+
