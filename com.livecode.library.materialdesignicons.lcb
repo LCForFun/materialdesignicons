@@ -1,0 +1,45 @@
+/* Copyright (C) 2021 LiveCode Ltd.
+ * All rights reserved.
+ * 
+ * LiveCode Ltd. grants you a non-exclusive limited license to use this file,
+ * with or without modification, with the LiveCode product and in standalones
+ * built using the LiveCode product.
+ * 
+ * Redistribution in source form, with or without modification, is permitted
+ * to other licensees of the LiveCode product provided that the following
+ * conditions are met:
+ * 
+ * * Redistributions of source code must retain the above copyright notice,
+ *   this list of conditions and the following disclaimer.
+ * 
+ * * The name LiveCode Ltd. may not be used to endorse or promote products
+ *   derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY LIVECODE LTD. ''AS IS'' AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL LIVECODE LTD. BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+
+/**
+This library has over 6700 material design icons from the community. All information regarding the license of the icons and their authors can be found at [materialdesignicons.com](https://materialdesignicons.com).
+*/
+library com.livecode.library.materialdesignicons
+
+use com.livecode.engine
+
+metadata version is "1.0.1"
+metadata author is "LiveCode"
+metadata title is "Material Design Icons"
+metadata SVGIcon is "M2,2H8V4H16V2H22V8H20V16H22V22H16V20H8V22H2V16H4V8H2V2M16,8V6H8V8H6V16H8V18H16V16H18V8H16M4,4V6H6V4H4M18,4V6H20V4H18M4,18V20H6V18H4M18,18V20H20V18H18Z"
+
+private handler ensureInitialised()
+	log 123
+end handler
+
+end library

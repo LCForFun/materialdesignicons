@@ -2,63 +2,10 @@ Library: com.livecode.library.materialdesignicons
 
 Type: library
 
-Title: Material Design Icons
+Summary: This library has over 6700 material design icons from the community. All information regarding the license of the icons and their authors can be found at [materialdesignicons.com](https://materialdesignicons.com).
 
-Version: 1.0.0
+version: 1.0.1
 
-Author: LiveCode
-
-SVGIcon: M2,2H8V4H16V2H22V8H20V16H22V22H16V20H8V22H2V16H4V8H2V2M16,8V6H8V8H6V16H8V18H16V16H18V8H16M4,4V6H6V4H4M18,4V6H20V4H18M4,18V20H6V18H4M18,18V20H20V18H18Z
-
-OS: mac, windows, linux, ios, android
-
-Platforms: desktop, mobile, web
-
-Summary: 6700+ Material Design Icons from the Community
-
-Description: This library has over 6700 material design icons from the community. All information regarding the license of the icons and their authors can be found at [materialdesignicons.com](https://materialdesignicons.com).
-
-
-Name: iconPicker
-
-Type: function
-
-Syntax: iconPicker([<pIconFamilyName>])
-
-Summary: Select an SVG icon from one of the loaded icon families.
-
-OS: mac, windows, linux
-
-Platforms: desktop
-
-Example:
-on mouseUp pButtonNumber
-   local tIconName
-   put iconPicker() into tIconName
-
-   if tIconName["name"] is not empty then
-      set the iconPresetName of widget "SVG Icon" to tIconName["name"]
-   end if
-end mouseUp
-
-Example:
-on mouseUp pButtonNumber
-   local tIconPath
-   put iconPicker() into tIconPath
-
-   if tIconPath["path"] is not empty then
-      set the iconPath of widget "SVG Icon" to tIconPath["path"]
-   end if
-end mouseUp
-
-Description: Use the <iconPicker> function to display an svg icon picker.
-
-Parameters: 
-
-pIconFamilyName: This parameter defines which icon family will be selected when opening the picker.
-
-Returns: This function returns an array with three keys. One with the name of the selected icon, another with its SVG path and one with the codepint of the icon.
-
-
+author: LiveCode
 
 
